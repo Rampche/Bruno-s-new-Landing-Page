@@ -4,7 +4,7 @@ import Hero from './components/Hero';
 
 function App() {
   return (
-    <main className="bg-[#d9d9d9] w-full h-full padding">
+    <main className="bg-[#d9d9d9] w-full h-full overflow-x-hidden">
       <Navbar />
       <Hero />
     </main>
